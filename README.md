@@ -7,3 +7,17 @@
 ![](https://cdn.staticaly.com/gh/NingNing0111/picx-images-hosting@master/ChatGPT/1693628871713.4uajbsnxufw0.webp)
 
 ![](https://cdn.staticaly.com/gh/NingNing0111/picx-images-hosting@master/ChatGPT/1693628822070.6dznol6gvj00.webp)
+
+### 部署？
+
+#### Docker
+
+```
+# 拉取镜像
+docker pull ningning0111/chat-free-web
+# 启动容器
+docker run --name chat-free-web -d -p 3000:3000 \
+  -e OPENAI_API_KEY=sk-********* \
+  -e ONE_AI_API=https://yourapi.com \
+  ningning0111/chat-free-web
+```
