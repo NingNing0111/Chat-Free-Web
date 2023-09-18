@@ -4,9 +4,9 @@
 
 > Claude目前是通过逆向工程进行调用的，用户在Free-Web上的所有对话数据在Claude看来是一位用户发来的。
 
-![](https://cdn.staticaly.com/gh/NingNing0111/picx-images-hosting@master/ChatGPT/1693628871713.4uajbsnxufw0.webp)
+![](https://pgthinker.me/wp-content/uploads/2023/09/1ED35AGC5Q@PT@T5W.png)
 
-![](https://cdn.staticaly.com/gh/NingNing0111/picx-images-hosting@master/ChatGPT/1693628822070.6dznol6gvj00.webp)
+![](https://pgthinker.me/wp-content/uploads/2023/09/ZA0AF_D7VTBUA40SB3@D.png)
 
 ### 如何免费使用ChatGPT 3.5 和 Claude？
 
@@ -14,6 +14,6 @@
 
 &emsp;公众号随时分享可同时使用ChatGPT 3.5和 Claude的共享Key，回复关键字:`共享Key`即可获取。
 
-![](https://cdn.staticaly.com/gh/NingNing0111/picx-images-hosting@master/ChatGPT/image.4c514jl23pa0.webp)
+![](https://pgthinker.me/wp-content/uploads/2023/09/80WOOBIIYOB4JYKCCK.png)
 
-![](https://cdn.staticaly.com/gh/NingNing0111/picx-images-hosting@master/ChatGPT/image.7i9fwndufhc0.webp)
+![](https://pgthinker.me/wp-content/uploads/2023/09/FS8147JBFIMO79QN@6F.png)
