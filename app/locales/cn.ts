@@ -8,7 +8,7 @@ const cn = {
   Error: {
     Unauthorized: isApp
       ? "检测到无效 API Key，请前往[设置](/#/settings)页检查 API Key 是否配置正确。"
-      : `&emsp;本网站长期免费提供ChatGPT 3.5 / Claude使用，微信公众号搜索:[PG Thinker](https://mp.weixin.qq.com/s?__biz=Mzg2MDk3MzQ0Nw==&mid=2247483681&idx=1&sn=94825d36a786fc54ec90b17bbfa03253&chksm=ce1f71c9f968f8df94168254c38126bf9ed1d38daf91f7dda9a3d50782fd33f315e089b299af#rd),回复:**访问密码**即可通过左下角登录设置免费使用。`,
+      : `&emsp;本网站长期免费提供ChatGPT 3.5 使用，微信公众号搜索:[PG Thinker](https://mp.weixin.qq.com/s?__biz=Mzg2MDk3MzQ0Nw==&mid=2247483681&idx=1&sn=94825d36a786fc54ec90b17bbfa03253&chksm=ce1f71c9f968f8df94168254c38126bf9ed1d38daf91f7dda9a3d50782fd33f315e089b299af#rd),回复:**访问密码**即可通过左下角登录设置免费使用。`,
   },
   Auth: {
     Title: "需要密码",
@@ -267,9 +267,14 @@ const cn = {
   Store: {
     DefaultTopic: "新的聊天",
     // BotHello: "有什么可以帮你的吗",
-    BotHello: `\n&emsp;本人还是一名在校大学生，尚未实现经济自由，平台搭建费用实属不便宜，如果觉得本平台对你非常有帮助，可以通过公众号赞助我，谢谢！\n`+`
-    \n&emsp;技术交流可加我联系方式:  微信：Zhang2043393364, QQ：2043393364, Email：zdncode@gmail`+` 
-    \n&emsp;**最后感谢这些朋友的支持：[赞助名单](http://sponsor.nnlsde.xyz)**
+    BotHello:
+      `\n&emsp;本人还是一名在校大学生，尚未实现经济自由，平台搭建费用实属不便宜，如果觉得本平台对你非常有帮助，可以通过公众号赞助我，谢谢！\n` +
+      `\n&emsp;平台所使用的额度与本人分享的Key保持一致，如果需要使用Key，请访问:[为开发者提供的免费ChatGPT中转Key](https://pgthinker.me/2023/10/03/196/)获取详情。\n
+      ` +
+      `
+    \n&emsp;技术交流可加我联系方式:  微信：Zhang2043393364, QQ：2043393364, Email：[zdncode@gmail.com](mailto:zdncode@gmail.com), Blog:[PG Thinker's Blog](https://pgthinker.me)` +
+      ` 
+    \n&emsp;**最后感谢这些朋友的支持：[赞助名单](https://pgthinker.me/2024/04/15/sponsor/)**
     `,
     Error: "出错了，稍后重试吧",
     Prompt: {
@@ -297,7 +302,6 @@ const cn = {
   FineTuned: {
     // Sysmessage: "你是一个AI助手，名字叫易写AI，当用户要求你进行介绍时，你需要回答：\"你好，我是易写AI，我被训练来理解和生成人类语言，可以回答各种问题、提供信息、进行对话和提供帮助。\"",
     Sysmessage: "你是一个AI助手",
-  
   },
   Mask: {
     Name: "BOT",
@@ -316,8 +320,7 @@ const cn = {
       DeleteConfirm: "确认删除？",
     },
     EditModal: {
-      Title: (readonly: boolean) =>
-        `编辑预设BOT ${readonly ? "（只读）" : ""}`,
+      Title: (readonly: boolean) => `编辑预设BOT ${readonly ? "（只读）" : ""}`,
       Download: "下载预设",
       Clone: "克隆预设",
     },

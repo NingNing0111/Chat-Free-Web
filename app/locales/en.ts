@@ -271,10 +271,16 @@ const en: LocaleType = {
   Store: {
     DefaultTopic: "New Conversation",
     // BotHello: "Hello! How can I assist you today?",
-    BotHello: `
-    \n&emsp;I am still a college student and have not yet achieved economic freedom. The cost of building the platform is not cheap. If you think this platform is very helpful to you, you can sponsor me through the official account, thank you!\n`+`
-    \n&emsp;For technical communication, please add my contact information:  WeChat：Zhang2043393364, QQ：2043393364, Email：zdncode@gmail`+` 
-    \n&emsp;**Finally, thanks to these friends for their support：[sponsor list](http://sponsor.nnlsde.xyz)**`,
+    BotHello:
+      `
+    \n&emsp;I am still a college student and have not yet achieved economic freedom. The cost of building the platform is not cheap. If you think this platform is very helpful to you, you can sponsor me through the official account, thank you!\n` +
+      `
+      \n&emsp;The quota used by the platform is consistent with the Key shared by me. If you need to use the Key, please visit: [Free ChatGPT transfer key provided for developers](https://pgthinker.me/2023/10/03/196/) for details.
+      ` +
+      `
+    \n&emsp;For technical communication, please add my contact information:  WeChat：Zhang2043393364, QQ：2043393364, Email：zdncode@gmail.com,Blog:[PG Thinker's Blog](https://pgthinker.me)` +
+      ` 
+    \n&emsp;**Finally, thanks to these friends for their support：[sponsor list](https://pgthinker.me/2024/04/15/sponsor/)**`,
     Error: "Something went wrong, please try again later.",
     Prompt: {
       History: (content: string) =>
